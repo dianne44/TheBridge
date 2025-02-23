@@ -60,5 +60,5 @@ document.addEventListener('DOMContentLoaded', () => {
 const goHomeButton = document.getElementById('goHomeButton');
 
 goHomeButton.addEventListener('click', () => {
-    window.location.href = 'home.html'; // Redirect to home.html
+    window.location.href = 'TheBridge/home.html'; // Redirect to home.html
 });
