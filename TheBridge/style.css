@@ -10,9 +10,10 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            
-            
+            padding: 0;
+                
         }
+     
         .header {
             background-color: #000000;
             padding: 10px;
@@ -404,10 +405,12 @@
             display: flex;
             justify-content: flex-end; /* Align items to the right */
             align-items: center; /* Vertically center items */
-            margin-top: 0; /* Push footer to the bottom */
+            /* margin-top: 0; /* Push footer to the bottom */
             width: 90%;
             margin-left: auto;
             margin-right: auto;
+            margin-top: auto;
+            
         }
 
         .footer-profile {
@@ -460,3 +463,54 @@
         .footer-profile span {
             font-weight: bold;
         }
+
+      
+        .landing-container {
+            flex-grow: 1; /* Allow container to take up available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;  /* Center horizontally */
+            justify-content: center; /* Center vertically */
+            padding: 20px;
+            text-align: center; /* Center text */
+        }
+
+       
+        .landing-title {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .landing-description {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 800px; /* Limit text width for readability */
+        }
+        .landing-button {
+            /* padding: 15px 30px; */
+            font-size: 1.2em;
+            border: none;
+            border-radius: 20px; /* Adjust for desired roundness */
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+            background-color: rgb(0, 0, 0); /* Black background */
+            color: rgb(255, 255, 255); /* White text */
+            padding: 10px 20px; /* Adjust padding as needed */
+            border-radius: 20px; /* Rounded corners */
+        }     
+        
+            
+    
+        
+        .landing-button:hover {
+         
+
+            background-color: white; /* White background on hover */
+                color: black; /* Black text on hover */
+        }
+        
+        
+
+
+
+       
+       
