@@ -56,3 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
         return text;
     }
 });
+
+const goHomeButton = document.getElementById('goHomeButton');
+
+goHomeButton.addEventListener('click', () => {
+    window.location.href = 'home.html'; // Redirect to home.html
+});
