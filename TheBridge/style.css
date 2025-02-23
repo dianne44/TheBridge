@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Caprasimo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" );
     
 
-      
+        
         body {
             font-family: 'Nunito', sans-serif; /* Use Nunito for general text */
             margin: 0;
@@ -284,9 +284,9 @@ body {
             width: 300px; /* Adjust width as needed */ /* Make it longer */
             /* Add this line to ensure the input fills the search bar */
             flex-grow: -1;
-            
+          /*  border: 1px solid #ccc; Example border */
+            padding: 5px; /* Example padding */
         }
-       
         .search-bar input[type="text"] {
     flex: 1;
     border: none;
@@ -294,6 +294,7 @@ body {
     background-color: transparent;
     color: white;
     outline: none; /* Remove default outline on focus */
+    
 }
 
 .search-bar button {
@@ -301,8 +302,9 @@ body {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+   /* padding: 5px; Adjust padding as needed */
+    
 }
-
 .search-bar button i {
     color: white;
 }
@@ -312,6 +314,8 @@ body {
             padding: 0;
             background-color: rgb(0, 0, 0); /* Make the input background transparent */
             color: white;
+            flex-grow: 1; /* Allow input to expand */
+           /* padding: 5px;  Example padding */
         }
         .search-bar button i {
             color: rgb(254, 253, 253); /* Icon color to black */
